@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    #main {
+        height: auto;
+        min-height: 100vh;
+        .main-content {
+            z-index: 2;
+            position: relative;
+            .main-features-list {
+                flex-wrap: wrap;
+            }
+        }
+        .main-img {
+            opacity: 0.3;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .main-content__title {
+            font-size: calc(1.1em + 1.3vw);
+        }
+    }
+}
